@@ -1,0 +1,30 @@
+{
+  "name": "capitan",
+  "version": "1.0.0",
+  "description": "Capitan Bitcoin Smart Contracts",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.5.0",
+    "@openzeppelin/test-helpers": "^0.5.5",
+    "chai": "^4.2.0",
+    "chai-bn": "^0.2.1",
+    "dotenv": "^8.2.0",
+    "ganache-cli": "^6.9.1",
+    "truffle": "^5.1.19",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.2.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "sh scripts/test.sh",
+    "hex": "node scripts/simple-generator"
+  },
+  "keywords": [
+    "capitan",
+    "bitcoin"
+  ],
+  "author": "Malkevych Bohdan",
+  "license": "ISC"
+}
